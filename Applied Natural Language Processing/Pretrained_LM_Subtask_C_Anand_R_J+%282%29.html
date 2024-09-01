@@ -1,0 +1,2176 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>a045648355ee416ba5bf9bdaab7daf1b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="pre-trained-language-models-subtask-c"
+class="cell markdown" data-deletable="false" data-editable="false"
+id="zDBF1PXEDfhw">
+<h1>Pre-trained Language Models: SubTask C</h1>
+<h2 id="8-marks">[8 Marks]</h2>
+<p>In this assignment, you will work on the <a
+href="https://competitions.codalab.org/competitions/21080">ComVE</a>
+shared task that was part of SemEval-2020. The task aims to evaluate
+whether a system can distinguish if a natural language statement makes
+sense to humans or not and provide a reason. <strong>ConVE</strong>
+includes three subtasks that require models to acquire and apply
+commonsense knowledge. In this notebook you will focus on
+<strong>SubTask C</strong>:</p>
+<ul>
+<li><p>Given a statement that does not make sense, generate the reason
+why this statement does not make sense. For each nonsensical statement,
+three valid reasons are given as reference:</p>
+<p><em>Statement</em>: He put an elephant into the fridge.<br />
+<em>Reason A</em>: An elephant is much bigger than a fridge.<br />
+<em>Reason B</em>: A fridge is much smaller than an elephant.<br />
+<em>Reason C</em>: Most of the fridges aren't large enough to contain an
+elephant.</p>
+<p>This subtask can be approached as a Sequence-to-Sequence problem
+where the input is the nonsensical statement and the output is a valid
+reason.</p></li>
+</ul>
+<p>You will fine-tune a Pre-trained Language Model with <a
+href="https://huggingface.co/docs/transformers/index">Transformers</a>
+library that provides a set of tools for fine-tunning and deploying a
+wide variety of Pre-trained Language Models. The <a
+href="https://huggingface.co/models">Hugging Face Hub</a> allows you to
+explore all the models supported by <strong>Transformers</strong> and
+even share your own models with the community. In this assignment, you
+will work with <a
+href="https://huggingface.co/docs/transformers/model_doc/bart">BART</a>,
+a pre-trained Sequence-to-Sequence model.</p>
+<p>Fine-tuning a Pre-trained Language Model usually requires a great
+amount of time and computational resources. Your personal computer will
+not be enough. In order to complete the assignment, you can work with a
+reduced version of the dataset and the base version of
+<strong>BART</strong>:</p>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>python <span class="op">--</span>version</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Python 3.9.13
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="2" id="X6DavXXpDfhy">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a>shrink_dataset <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>base_model <span class="op">=</span> <span class="va">True</span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>colab <span class="op">=</span> <span class="va">False</span></span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="fI5Uu0_gDfhz">
+<p>Although the value of these variables do not affect the tests that
+will evaluate your code, the output examples distributed throughout this
+notebook are based on a <code>shrink_dataset</code> and a
+<code>base_model</code> variables set as <code>True</code>, and a
+<code>colab</code> variable set as <code>False</code>.</p>
+<p>If you want to perform a full training of the model to obtain its
+real performance, you can use a cloud service like <a
+href="https://colab.research.google.com/">Google Colab</a>.
+<strong>Colab</strong> is a <strong>Jupyter</strong> notebook
+environment that supports both GPU and TPU instances, allowing training
+large scale Deep Learning models. Set the <code>shrink_dataset</code>
+and a <code>base_model</code> variables to <code>False</code>, the
+<code>colab</code> variable to <code>True</code>, and follow the
+instructions provided to you to run the notebook in
+<strong>Colab</strong>.</p>
+</div>
+<div class="cell code" data-execution_count="3" data-deletable="false"
+data-editable="false" id="gEqfRl12Dfhz">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> colab:</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>    <span class="op">!</span> pip install transformers datasets evaluate</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a>    <span class="im">import</span> os</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> os.path.exists(<span class="st">&quot;SemEval2020-Task4-Data/ALL data/Training  Data/subtaskC_data_all.csv&quot;</span>):</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        <span class="op">!</span> git clone https:<span class="op">//</span>github.com<span class="op">/</span>wangcunxiang<span class="op">/</span>SemEval2020<span class="op">-</span>Task4<span class="op">-</span>Commonsense<span class="op">-</span>Validation<span class="op">-</span><span class="kw">and</span><span class="op">-</span>Explanation.git SemEval2020<span class="op">-</span>Task4<span class="op">-</span>Data</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers datasets evaluate</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: transformers in c:\users\rjana\anaconda3\lib\site-packages (4.36.2)
+Requirement already satisfied: datasets in c:\users\rjana\anaconda3\lib\site-packages (2.20.0)
+Requirement already satisfied: evaluate in c:\users\rjana\anaconda3\lib\site-packages (0.4.2)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (21.3)
+Requirement already satisfied: tqdm&gt;=4.27 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (4.66.4)
+Requirement already satisfied: safetensors&gt;=0.3.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (0.4.1)
+Requirement already satisfied: numpy&gt;=1.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (1.21.5)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (2022.7.9)
+Requirement already satisfied: requests in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (2.32.3)
+Requirement already satisfied: tokenizers&lt;0.19,&gt;=0.14 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (0.15.0)
+Requirement already satisfied: filelock in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (3.6.0)
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.19.3 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (0.23.4)
+Requirement already satisfied: pyyaml&gt;=5.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (6.0)
+Requirement already satisfied: aiohttp in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (3.9.5)
+Requirement already satisfied: fsspec[http]&lt;=2024.5.0,&gt;=2023.1.0 in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (2023.12.2)
+Requirement already satisfied: multiprocess in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (0.70.16)
+Requirement already satisfied: dill&lt;0.3.9,&gt;=0.3.0 in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (0.3.8)
+Requirement already satisfied: xxhash in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (3.4.1)
+Requirement already satisfied: pyarrow&gt;=15.0.0 in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (16.1.0)
+Requirement already satisfied: pandas in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (1.4.4)
+Requirement already satisfied: pyarrow-hotfix in c:\users\rjana\anaconda3\lib\site-packages (from datasets) (0.6)
+Requirement already satisfied: multidict&lt;7.0,&gt;=4.5 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (6.0.5)
+Requirement already satisfied: async-timeout&lt;5.0,&gt;=4.0 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (4.0.3)
+Requirement already satisfied: aiosignal&gt;=1.1.2 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (1.3.1)
+Requirement already satisfied: frozenlist&gt;=1.1.1 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (1.4.1)
+Requirement already satisfied: yarl&lt;2.0,&gt;=1.0 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (1.9.4)
+Requirement already satisfied: attrs&gt;=17.3.0 in c:\users\rjana\anaconda3\lib\site-packages (from aiohttp-&gt;datasets) (21.4.0)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub&lt;1.0,&gt;=0.19.3-&gt;transformers) (4.12.0)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\rjana\anaconda3\lib\site-packages (from packaging&gt;=20.0-&gt;transformers) (3.0.9)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (2022.9.14)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (1.26.11)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (3.3)
+Requirement already satisfied: colorama in c:\users\rjana\anaconda3\lib\site-packages (from tqdm&gt;=4.27-&gt;transformers) (0.4.6)
+Requirement already satisfied: python-dateutil&gt;=2.8.1 in c:\users\rjana\anaconda3\lib\site-packages (from pandas-&gt;datasets) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in c:\users\rjana\anaconda3\lib\site-packages (from pandas-&gt;datasets) (2022.1)
+Requirement already satisfied: six&gt;=1.5 in c:\users\rjana\anaconda3\lib\site-packages (from python-dateutil&gt;=2.8.1-&gt;pandas-&gt;datasets) (1.16.0)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="U1c3v4XVDfhz">
+<p>You will use the following objects and functions:</p>
+</div>
+<div class="cell code" data-execution_count="5" data-deletable="false"
+data-editable="false" id="Nef4cdirDfhz">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> evaluate</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> datasets <span class="im">import</span> Dataset</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> (AutoTokenizer, AutoModelForSeq2SeqLM, </span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>                          Seq2SeqTrainingArguments, Seq2SeqTrainer, </span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>                          DataCollatorForSeq2Seq, enable_full_determinism)</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="rjm8g6k8Dfhz">
+<p>When working with Neural Networks, there are a large number of random
+operations such as initializing the weights of the network, shuffling
+the data for training, or choosing samples. This causes that different
+training runs of the same model can lead to different results. To ensure
+reproducibility, i.e. obtaining the same results in the different runs,
+the random number generator must be initialized with a fixed value known
+as seed. In Transformers, this can be done as follows:</p>
+</div>
+<div class="cell code" data-execution_count="6" data-deletable="false"
+data-editable="false" id="9GC6UlXcDfh0">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>enable_full_determinism(seed<span class="op">=</span><span class="dv">42</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="J8U_rnboDfh0">
+<blockquote>
+<p><strong>Note!</strong> With models as complex as Neural Networks,
+reproducibility is susceptible to factors such as software versions or
+the hardware on which the models are run. Even with seed initialization,
+there may be slight differences in the results.</p>
+</blockquote>
+<p>Working with Neural Networks also involves defining a number of
+hyperparameters that set the configuration of the model. Finding the
+appropriate hyperparameter values requires training the model with
+different combinations and testing them on the development set. This
+hyperparameter tuning is a costly process that needs multiple rounds of
+experimentation. However, for this assignments, you will use the
+following values:</p>
+</div>
+<div class="cell code" data-execution_count="7" data-deletable="false"
+data-editable="false" id="8eBiASC4Dfh0">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>epochs <span class="op">=</span> <span class="dv">3</span>  <span class="co"># Number of epochs to train the model</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a>train_batch_size <span class="op">=</span> <span class="dv">8</span>  <span class="co"># Number of examples used per gradient update</span></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a>learning_rate <span class="op">=</span> <span class="fl">1e-5</span>  <span class="co"># The learning rate for the optimizer</span></span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>max_length <span class="op">=</span> <span class="dv">25</span>  <span class="co"># Maximum lenght of the input sequence</span></span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>output_dir <span class="op">=</span> <span class="st">&quot;modelC&quot;</span>  <span class="co"># The output directory where the model will be written</span></span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="eAd8K6wXDfh0">
+<blockquote>
+<p><strong>Note!</strong> The notebook for this assignment provides very
+little guidance. You are expected to refer to the <a
+href="https://huggingface.co/docs">documentation</a> for details on how
+to solve the exercises.</p>
+</blockquote>
+</div>
+<section id="loading-the-pre-trained-model---1-mark"
+class="cell markdown" data-deletable="false" data-editable="false"
+id="kGbzR7H8Dfh0">
+<h2>Loading the Pre-trained Model - [1 Mark]</h2>
+<p>The first step you must perform in this assignment is to load the
+model and its corresponding tokenizer using the classes imported
+above.</p>
+</section>
+<div class="cell code" data-execution_count="8" id="Yk7tOsLaDfh0">
+<div class="sourceCode" id="cb10"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_model(model_name):   <span class="co">#[1 Mark]</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    model <span class="op">=</span> AutoModelForSeq2SeqLM.from_pretrained(model_name)</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>    tokenizer <span class="op">=</span> AutoTokenizer.from_pretrained(model_name)</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> model, tokenizer</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="9" data-deletable="false"
+data-editable="false" id="lEVPC3rlDfh0">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>model_name <span class="op">=</span> <span class="st">&quot;facebook/bart-base&quot;</span> <span class="cf">if</span> base_model <span class="cf">else</span> <span class="st">&quot;facebook/bart-large&quot;</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>model, tokenizer <span class="op">=</span> load_model(model_name)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\rjana\Anaconda3\lib\site-packages\huggingface_hub\file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<section id="data-pre-processing---2-marks" class="cell markdown"
+data-deletable="false" data-editable="false" id="-q7CcBksDfh1">
+<h2>Data Pre-processing - [2 Marks]</h2>
+<p>The <strong>ComVE</strong> dataset consists of 10000 nonsensical
+statements for the train set, 997 statements for development and 1000
+for test. Each nonsensical statements comes with with three reference
+valid reasons. You must load the three sets into three
+<code>DataFrames</code>. For the training and development splits, the
+<code>DataFrame</code> should contain three columns: the <code>id</code>
+of the nonsensical statement, a <code>FalseSent</code> column with the
+nonsensical statement and a <code>reason</code> column with the
+reference reasons. For the test set, the <code>DataFrame</code> should
+contain five columns: the <code>id</code> of the nonsensical statement,
+a <code>FalseSent</code> column with the nonsensical statement and three
+columns (<code>reason1</code>, <code>reason2</code> and
+<code>reason3</code>) containing each of the reference reasons.</p>
+<p>Train DataFrame:</p>
+<table>
+<colgroup>
+<col style="width: 4%" />
+<col style="width: 4%" />
+<col style="width: 35%" />
+<col style="width: 55%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: right;">id</th>
+<th style="text-align: left;">FalseSent</th>
+<th style="text-align: left;">reason</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">769</td>
+<td style="text-align: right;">769</td>
+<td style="text-align: left;">Computers is an ingredient used in
+preparing food</td>
+<td style="text-align: left;">Computers are not used for food and they
+are not edible</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">10769</td>
+<td style="text-align: right;">769</td>
+<td style="text-align: left;">Computers is an ingredient used in
+preparing food</td>
+<td style="text-align: left;">Computer is not something that can be used
+in preparing food.</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">20769</td>
+<td style="text-align: right;">769</td>
+<td style="text-align: left;">Computers is an ingredient used in
+preparing food</td>
+<td style="text-align: left;">You cannot eat a computer</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">888</td>
+<td style="text-align: right;">888</td>
+<td style="text-align: left;">he did hear music in his cooling
+glass</td>
+<td style="text-align: left;">cooling glass can not play the song, it's
+not a electronic thing to play music</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">10888</td>
+<td style="text-align: right;">888</td>
+<td style="text-align: left;">he did hear music in his cooling
+glass</td>
+<td style="text-align: left;">Glass does not produce music.</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">20888</td>
+<td style="text-align: right;">888</td>
+<td style="text-align: left;">he did hear music in his cooling
+glass</td>
+<td style="text-align: left;">Any sound that might be made by a cooling
+glass is not music.</td>
+</tr>
+</tbody>
+</table>
+<p>Test DataFrame:</p>
+<table>
+<colgroup>
+<col style="width: 2%" />
+<col style="width: 2%" />
+<col style="width: 19%" />
+<col style="width: 24%" />
+<col style="width: 23%" />
+<col style="width: 28%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: right;">id</th>
+<th style="text-align: left;">FalseSent</th>
+<th style="text-align: left;">reason1</th>
+<th style="text-align: left;">reason2</th>
+<th style="text-align: left;">reason3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">1280</td>
+<td style="text-align: left;">Beer that is drunk by humans is white</td>
+<td style="text-align: left;">Beer is made of barley and it is a yellow
+drink</td>
+<td style="text-align: left;">A beer that is drunk by humans is not
+white.</td>
+<td style="text-align: left;">Beer is brown</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">860</td>
+<td style="text-align: left;">eating trash food every day makes you
+stronger</td>
+<td style="text-align: left;">eating trash food every day makes your
+body fat and weak</td>
+<td style="text-align: left;">eating trash food every day is bad for
+your health</td>
+<td style="text-align: left;">Trash food could be contaminated</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">777</td>
+<td style="text-align: left;">he put some cooking oil in his wine</td>
+<td style="text-align: left;">cooking oil will destroy the taste of the
+wine</td>
+<td style="text-align: left;">Cooking oil does not go in wine</td>
+<td style="text-align: left;">Cooking oil does not taste nice and
+therefore would ruin the wine.</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">174</td>
+<td style="text-align: right;">570</td>
+<td style="text-align: left;">Lobsters live in the mountains</td>
+<td style="text-align: left;">Lobsters needs water to live</td>
+<td style="text-align: left;">Lobsters live in the sea.</td>
+<td style="text-align: left;">Lobsters live in the sea, not the
+mountains</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">1929</td>
+<td style="text-align: left;">the clock shows animals</td>
+<td style="text-align: left;">the clock is used to show the time to
+people</td>
+<td style="text-align: left;">Clocks are required to tell the time, not
+show animals</td>
+<td style="text-align: left;">a clock shows the time not animals</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">235</td>
+<td style="text-align: right;">1619</td>
+<td style="text-align: left;">she put the giraffe in the freezer</td>
+<td style="text-align: left;">A giraffe is much bigger than the
+freezer</td>
+<td style="text-align: left;">There is no way a giraffe is fitting in
+the freezer.</td>
+<td style="text-align: left;">A giraffe is too big to be put in a
+freezer.</td>
+</tr>
+</tbody>
+</table>
+</section>
+<div class="cell code" data-execution_count="10" id="GVeX5et-Dfh1">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> load_data(data_csv, answers_csv, is_test<span class="op">=</span><span class="va">False</span>):   <span class="co"># 1 Mark</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    data_csv <span class="op">=</span> pd.read_csv(data_csv, names<span class="op">=</span>[<span class="st">&quot;id&quot;</span>, <span class="st">&quot;FalseSent&quot;</span>], header<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> is_test:</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>        answers_df <span class="op">=</span> pd.read_csv(answers_csv, names<span class="op">=</span>[<span class="st">&quot;id&quot;</span>, <span class="st">&quot;reason1&quot;</span>, <span class="st">&quot;reason2&quot;</span>, <span class="st">&quot;reason3&quot;</span>], header<span class="op">=</span><span class="va">None</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>        merged_df <span class="op">=</span> pd.merge(data_csv, answers_df, on<span class="op">=</span><span class="st">&quot;id&quot;</span>)</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>        answers_csv <span class="op">=</span> pd.read_csv(answers_csv, names<span class="op">=</span>[<span class="st">&quot;id&quot;</span>, <span class="st">&quot;reason1&quot;</span>, <span class="st">&quot;reason2&quot;</span>, <span class="st">&quot;reason3&quot;</span>], header<span class="op">=</span><span class="dv">0</span>)</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>        result_df <span class="op">=</span> pd.melt(answers_csv, id_vars<span class="op">=</span>[<span class="st">&quot;id&quot;</span>], value_vars<span class="op">=</span>[<span class="st">&quot;reason1&quot;</span>, <span class="st">&quot;reason2&quot;</span>, <span class="st">&quot;reason3&quot;</span>], value_name<span class="op">=</span><span class="st">&quot;reason&quot;</span>)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>        result_df <span class="op">=</span> result_df.drop([<span class="st">&quot;variable&quot;</span>], axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb13-11"><a href="#cb13-11" aria-hidden="true" tabindex="-1"></a>        merged_df <span class="op">=</span> pd.merge(data_csv,result_df,on<span class="op">=</span><span class="st">&#39;id&#39;</span>,how<span class="op">=</span><span class="st">&#39;inner&#39;</span>)</span>
+<span id="cb13-12"><a href="#cb13-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb13-13"><a href="#cb13-13" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> merged_df</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="11" data-deletable="false"
+data-editable="false" id="tE231iQzDfh1">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>train_data_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Training  Data/subtaskC_data_all.csv&quot;</span></span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>train_answers_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Training  Data/subtaskC_answers_all.csv&quot;</span></span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>train_data <span class="op">=</span> load_data(train_data_csv, train_answers_csv)</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>dev_data_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Dev Data/subtaskC_dev_data.csv&quot;</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>dev_answers_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Dev Data/subtaskC_gold_answers.csv&quot;</span></span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>dev_data <span class="op">=</span> load_data(dev_data_csv, dev_answers_csv)</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a>test_data_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Test Data/subtaskC_test_data.csv&quot;</span></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>test_answers_csv <span class="op">=</span> <span class="st">&quot;SemEval2020-Task4-Data/ALL data/Test Data/subtaskC_gold_answers.csv&quot;</span></span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>test_data <span class="op">=</span> load_data(test_data_csv, test_answers_csv, <span class="va">True</span>)</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> shrink_dataset:</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>    idxs <span class="op">=</span> train_data[<span class="st">&quot;id&quot;</span>].sample(frac<span class="op">=</span><span class="dv">1</span>, random_state<span class="op">=</span><span class="dv">42</span>).unique()[:<span class="dv">30</span>]</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>    train_data <span class="op">=</span> train_data[train_data.<span class="bu">id</span>.isin(idxs)]</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>    idxs <span class="op">=</span> dev_data[<span class="st">&quot;id&quot;</span>].sample(frac<span class="op">=</span><span class="dv">1</span>, random_state<span class="op">=</span><span class="dv">42</span>).unique()[:<span class="dv">30</span>]</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>    dev_data <span class="op">=</span> dev_data[dev_data.<span class="bu">id</span>.isin(idxs)]</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>    idxs <span class="op">=</span> test_data[<span class="st">&quot;id&quot;</span>].sample(frac<span class="op">=</span><span class="dv">1</span>, random_state<span class="op">=</span><span class="dv">42</span>).unique()[:<span class="dv">30</span>]</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>    test_data <span class="op">=</span> test_data[test_data.<span class="bu">id</span>.isin(idxs)]</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a>pd.set_option(<span class="st">&quot;display.max_colwidth&quot;</span>, <span class="va">None</span>)</span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Train DataFrame:&quot;</span>)</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>display(train_data[:<span class="dv">6</span>])</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test DataFrame:&quot;</span>)</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>display(test_data[:<span class="dv">6</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Train DataFrame:
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>reason</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2307</th>
+      <td>770</td>
+      <td>The plane is flying between the planets.</td>
+      <td>The plane cannot go into space.</td>
+    </tr>
+    <tr>
+      <th>2308</th>
+      <td>770</td>
+      <td>The plane is flying between the planets.</td>
+      <td>Planes are require air to fly and there is no air in space.</td>
+    </tr>
+    <tr>
+      <th>2309</th>
+      <td>770</td>
+      <td>The plane is flying between the planets.</td>
+      <td>You can not fly a plane in space</td>
+    </tr>
+    <tr>
+      <th>2664</th>
+      <td>889</td>
+      <td>My car is a sphere</td>
+      <td>Planets are spheres, but my car does not have a sphere as volume</td>
+    </tr>
+    <tr>
+      <th>2665</th>
+      <td>889</td>
+      <td>My car is a sphere</td>
+      <td>Cars are not spherical</td>
+    </tr>
+    <tr>
+      <th>2666</th>
+      <td>889</td>
+      <td>My car is a sphere</td>
+      <td>Cars are not shaped like a sphere.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+<div class="output stream stdout">
+<pre><code>Test DataFrame:
+</code></pre>
+</div>
+<div class="output display_data">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>reason1</th>
+      <th>reason2</th>
+      <th>reason3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>76</th>
+      <td>1280</td>
+      <td>Beer that is drunk by humans is white</td>
+      <td>Beer is made of barley and it is a yellow drink</td>
+      <td>A beer that is drunk by humans is not white.</td>
+      <td>Beer is brown</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>860</td>
+      <td>eating trash food every day makes you stronger</td>
+      <td>eating trash food every day makes your body fat and weak</td>
+      <td>eating trash food every day is bad for your health</td>
+      <td>Trash food could be contaminated</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>777</td>
+      <td>he put some cooking oil in his wine</td>
+      <td>cooking oil will destroy the taste of the wine</td>
+      <td>Cooking oil does not go in wine</td>
+      <td>Cooking oil does not taste nice and therefore would ruin the wine.</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>570</td>
+      <td>Lobsters live in the mountains</td>
+      <td>Lobsters needs water to live</td>
+      <td>Lobsters live in the sea.</td>
+      <td>Lobsters live in the sea, not the mountains</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>1929</td>
+      <td>the clock shows animals</td>
+      <td>the clock is used to show the time to people</td>
+      <td>Clocks are required to tell the time, not show animals</td>
+      <td>a clock shows the time not animals</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>1619</td>
+      <td>she put the giraffe in the freezer</td>
+      <td>A giraffe is much bigger than the freezer</td>
+      <td>There is no way a giraffe is fitting in the freezer.</td>
+      <td>A giraffe is too big to be put in a freezer.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="12" data-deletable="false"
+data-editable="false" id="DJU-01EtDfh1">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> Dataset.from_pandas(train_data)</span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>dev_dataset <span class="op">=</span> Dataset.from_pandas(dev_data)</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> Dataset.from_pandas(test_data)</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Train Dataset example:&quot;</span>)</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>display(train_dataset[<span class="dv">0</span>])</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Test Dataset example:&quot;</span>)</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>display(test_dataset[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Train Dataset example:
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>{&#39;id&#39;: 770,
+ &#39;FalseSent&#39;: &#39;The plane is flying between the planets.&#39;,
+ &#39;reason&#39;: &#39;The plane cannot go into space.&#39;,
+ &#39;__index_level_0__&#39;: 2307}</code></pre>
+</div>
+<div class="output stream stdout">
+<pre><code>Test Dataset example:
+</code></pre>
+</div>
+<div class="output display_data">
+<pre><code>{&#39;id&#39;: 1280,
+ &#39;FalseSent&#39;: &#39;Beer that is drunk by humans is white&#39;,
+ &#39;reason1&#39;: &#39;Beer is made of barley and it is a yellow drink&#39;,
+ &#39;reason2&#39;: &#39;A beer that is drunk by humans is not white.&#39;,
+ &#39;reason3&#39;: &#39;Beer is brown&#39;,
+ &#39;__index_level_0__&#39;: 76}</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="HsEcHmGiDfh1">
+<p>The <code>Datasets</code> should be pre-processed following two
+different approaches. For the test <code>Dataset</code>, you must run
+the tokenizer on the <code>FalseSent</code> column and store the result
+in the <code>input_ids</code> and <code>attention_mask</code> fields.
+For the train and development <code>Datasets</code> you must also run
+the tokenizer on the <code>reason</code> column and store the resulting
+<code>input_ids</code> in the <code>labels</code> field. In all cases,
+the tokenizer must pad and truncate the sequences to the
+<code>max_length</code> value.</p>
+<blockquote>
+<pre>
+Train formated Dataset example:
+
+{'id': 769, 'FalseSent': 'Computers is an ingredient used in preparing food', 'reason': 'Computers are not used for food and they are not edible', '__index_level_0__': 769, 'input_ids': [0, 14721, 43990, 16, 41, 16181, 341, 11, 4568, 689, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], 'labels': [0, 14721, 43990, 32, 45, 341, 13, 689, 8, 51, 32, 45, 27532, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+Test formated Dataset example:
+
+{'id': 1280, 'FalseSent': 'Beer that is drunk by humans is white', 'reason1': 'Beer is made of barley and it is a yellow drink', 'reason2': 'A beer that is drunk by humans is not white.', 'reason3': 'Beer is brown', '__index_level_0__': 76, 'input_ids': [0, 45562, 14, 16, 10789, 30, 5868, 16, 1104, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], 'attention_mask': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+</pre>
+</blockquote>
+</div>
+<div class="cell code" data-execution_count="13" id="Y17HBOk0Dfh1">
+<div class="sourceCode" id="cb22"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> preprocess_data(examples, tokenizer, max_length, is_test<span class="op">=</span><span class="va">False</span>):   <span class="co"># [1 Mark]</span></span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> is_test:</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>        inputs <span class="op">=</span> tokenizer(examples[<span class="st">&quot;FalseSent&quot;</span>], truncation<span class="op">=</span><span class="va">True</span>, max_length<span class="op">=</span>max_length, padding<span class="op">=</span><span class="st">&quot;max_length&quot;</span>)</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> inputs</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        inputs <span class="op">=</span> tokenizer(examples[<span class="st">&quot;FalseSent&quot;</span>], truncation<span class="op">=</span><span class="va">True</span>, max_length<span class="op">=</span>max_length, padding<span class="op">=</span><span class="st">&quot;max_length&quot;</span>)</span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a>        labels <span class="op">=</span> tokenizer(examples[<span class="st">&quot;reason&quot;</span>], truncation<span class="op">=</span><span class="va">True</span>, max_length<span class="op">=</span>max_length, padding<span class="op">=</span><span class="st">&quot;max_length&quot;</span>)[<span class="st">&quot;input_ids&quot;</span>]</span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>        inputs[<span class="st">&quot;labels&quot;</span>] <span class="op">=</span> labels</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> inputs</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="14" data-deletable="false"
+data-editable="false" id="TYDVjG1SDfh1">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>train_dataset <span class="op">=</span> train_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>dev_dataset <span class="op">=</span> dev_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>test_dataset <span class="op">=</span> test_dataset.<span class="bu">map</span>(<span class="kw">lambda</span> x: preprocess_data(x, tokenizer, max_length, <span class="va">True</span>), batched<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Train formated Dataset example:</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(train_dataset[<span class="dv">0</span>])</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;</span><span class="ch">\n</span><span class="st">Test formated Dataset example:</span><span class="ch">\n</span><span class="st">&quot;</span>)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(test_dataset[<span class="dv">0</span>])</span></code></pre></div>
+<div class="output display_data">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;51f8289eae264e4b814dc13c8bdfe1ca&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;6c2fce8725de4baeadfe4dd2a7781c76&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output display_data">
+<div class="sourceCode" id="cb26"><pre
+class="sourceCode json"><code class="sourceCode json"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a><span class="fu">{</span><span class="dt">&quot;model_id&quot;</span><span class="fu">:</span><span class="st">&quot;5967509ef33c4c67ac44ca4e48569565&quot;</span><span class="fu">,</span><span class="dt">&quot;version_major&quot;</span><span class="fu">:</span><span class="dv">2</span><span class="fu">,</span><span class="dt">&quot;version_minor&quot;</span><span class="fu">:</span><span class="dv">0</span><span class="fu">}</span></span></code></pre></div>
+</div>
+<div class="output stream stdout">
+<pre><code>Train formated Dataset example:
+
+{&#39;id&#39;: 770, &#39;FalseSent&#39;: &#39;The plane is flying between the planets.&#39;, &#39;reason&#39;: &#39;The plane cannot go into space.&#39;, &#39;__index_level_0__&#39;: 2307, &#39;input_ids&#39;: [0, 133, 3286, 16, 4731, 227, 5, 18979, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], &#39;attention_mask&#39;: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], &#39;labels&#39;: [0, 133, 3286, 1395, 213, 88, 980, 4, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]}
+
+Test formated Dataset example:
+
+{&#39;id&#39;: 1280, &#39;FalseSent&#39;: &#39;Beer that is drunk by humans is white&#39;, &#39;reason1&#39;: &#39;Beer is made of barley and it is a yellow drink&#39;, &#39;reason2&#39;: &#39;A beer that is drunk by humans is not white.&#39;, &#39;reason3&#39;: &#39;Beer is brown&#39;, &#39;__index_level_0__&#39;: 76, &#39;input_ids&#39;: [0, 45562, 14, 16, 10789, 30, 5868, 16, 1104, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1], &#39;attention_mask&#39;: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]}
+</code></pre>
+</div>
+</div>
+<section id="fine-tuning---5-marks" class="cell markdown"
+data-deletable="false" data-editable="false" id="SE65PJbXDfh2">
+<h2>Fine-tuning - [5 Marks]</h2>
+<p>In general, when using a <code>Trainer</code> to make predictions, it
+returns the logits for each class in the task. However, the
+<code>Seq2SeqTrainingArguments</code> class provides an option that
+allows the <code>Trainer</code> to generate sequences of tokens in the
+prediction. The <code>create_training_arguments</code> function must
+create the <code>Seq2SeqTrainingArguments</code> with that option and
+the hyperparamters passed as arguments. During the training, the model
+must be evaluated on the development set after every epoch.
+<code>TrainingArguments</code> should include this strategy.</p>
+<blockquote>
+<p><strong>Important!</strong> By default, <code>Trainer</code> saves a
+checkpoint of the model every 500 training steps. For this assignment,
+avoid this behavior by setting <code>save_strategy="no"</code> when
+creating the <code>TrainingArguments</code>.</p>
+</blockquote>
+</section>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install transformers[torch]</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: transformers[torch] in c:\users\rjana\anaconda3\lib\site-packages (4.36.2)
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.19.3 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (0.23.4)
+Requirement already satisfied: numpy&gt;=1.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (1.21.5)
+Requirement already satisfied: requests in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (2.32.3)
+Requirement already satisfied: tqdm&gt;=4.27 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (4.66.4)
+Requirement already satisfied: tokenizers&lt;0.19,&gt;=0.14 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (0.15.0)
+Requirement already satisfied: pyyaml&gt;=5.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (6.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (21.3)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (2022.7.9)
+Requirement already satisfied: filelock in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (3.6.0)
+Requirement already satisfied: safetensors&gt;=0.3.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (0.4.1)
+Requirement already satisfied: accelerate&gt;=0.21.0 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (0.31.0)
+Requirement already satisfied: torch!=1.12.0,&gt;=1.10 in c:\users\rjana\anaconda3\lib\site-packages (from transformers[torch]) (2.1.2)
+Requirement already satisfied: psutil in c:\users\rjana\anaconda3\lib\site-packages (from accelerate&gt;=0.21.0-&gt;transformers[torch]) (5.9.0)
+Requirement already satisfied: fsspec&gt;=2023.5.0 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub&lt;1.0,&gt;=0.19.3-&gt;transformers[torch]) (2023.12.2)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub&lt;1.0,&gt;=0.19.3-&gt;transformers[torch]) (4.12.0)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\rjana\anaconda3\lib\site-packages (from packaging&gt;=20.0-&gt;transformers[torch]) (3.0.9)
+Requirement already satisfied: jinja2 in c:\users\rjana\anaconda3\lib\site-packages (from torch!=1.12.0,&gt;=1.10-&gt;transformers[torch]) (2.11.3)
+Requirement already satisfied: sympy in c:\users\rjana\anaconda3\lib\site-packages (from torch!=1.12.0,&gt;=1.10-&gt;transformers[torch]) (1.10.1)
+Requirement already satisfied: networkx in c:\users\rjana\anaconda3\lib\site-packages (from torch!=1.12.0,&gt;=1.10-&gt;transformers[torch]) (2.8.4)
+Requirement already satisfied: colorama in c:\users\rjana\anaconda3\lib\site-packages (from tqdm&gt;=4.27-&gt;transformers[torch]) (0.4.6)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers[torch]) (2.0.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers[torch]) (3.3)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers[torch]) (2022.9.14)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers[torch]) (1.26.11)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in c:\users\rjana\anaconda3\lib\site-packages (from jinja2-&gt;torch!=1.12.0,&gt;=1.10-&gt;transformers[torch]) (2.0.1)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\rjana\anaconda3\lib\site-packages (from sympy-&gt;torch!=1.12.0,&gt;=1.10-&gt;transformers[torch]) (1.2.1)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install accelerate <span class="op">-</span>U</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: accelerate in c:\users\rjana\anaconda3\lib\site-packages (0.31.0)
+Requirement already satisfied: numpy&gt;=1.17 in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (1.21.5)
+Requirement already satisfied: torch&gt;=1.10.0 in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (2.1.2)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (21.3)
+Requirement already satisfied: huggingface-hub in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (0.23.4)
+Requirement already satisfied: psutil in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (5.9.0)
+Requirement already satisfied: safetensors&gt;=0.3.1 in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (0.4.1)
+Requirement already satisfied: pyyaml in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (6.0)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\rjana\anaconda3\lib\site-packages (from packaging&gt;=20.0-&gt;accelerate) (3.0.9)
+Requirement already satisfied: networkx in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (2.8.4)
+Requirement already satisfied: fsspec in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (2023.12.2)
+Requirement already satisfied: jinja2 in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (2.11.3)
+Requirement already satisfied: filelock in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (3.6.0)
+Requirement already satisfied: sympy in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (1.10.1)
+Requirement already satisfied: typing-extensions in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (4.12.0)
+Requirement already satisfied: tqdm&gt;=4.42.1 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub-&gt;accelerate) (4.66.4)
+Requirement already satisfied: requests in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub-&gt;accelerate) (2.32.3)
+Requirement already satisfied: colorama in c:\users\rjana\anaconda3\lib\site-packages (from tqdm&gt;=4.42.1-&gt;huggingface-hub-&gt;accelerate) (0.4.6)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in c:\users\rjana\anaconda3\lib\site-packages (from jinja2-&gt;torch&gt;=1.10.0-&gt;accelerate) (2.0.1)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;huggingface-hub-&gt;accelerate) (2022.9.14)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;huggingface-hub-&gt;accelerate) (2.0.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;huggingface-hub-&gt;accelerate) (1.26.11)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;huggingface-hub-&gt;accelerate) (3.3)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\rjana\anaconda3\lib\site-packages (from sympy-&gt;torch&gt;=1.10.0-&gt;accelerate) (1.2.1)
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="17" id="NYcGf9LtDfh2">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_training_arguments(epochs, train_batch_size, learning_rate, output_dir):   <span class="co"># [1 Mark]</span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a>    training_args <span class="op">=</span> Seq2SeqTrainingArguments(</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a>        output_dir<span class="op">=</span>output_dir,</span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>        evaluation_strategy<span class="op">=</span><span class="st">&quot;epoch&quot;</span>,  </span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>        per_device_train_batch_size<span class="op">=</span>train_batch_size,</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a>        save_strategy<span class="op">=</span><span class="st">&quot;no&quot;</span>,  </span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a>        predict_with_generate<span class="op">=</span><span class="va">True</span>,  </span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>        num_train_epochs<span class="op">=</span>epochs,</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>        learning_rate<span class="op">=</span>learning_rate,</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> training_args</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="18" data-deletable="false"
+data-editable="false" id="OMIWd-JsDfh2">
+<div class="sourceCode" id="cb33"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>train_args <span class="op">=</span> create_training_arguments(epochs, train_batch_size, learning_rate, output_dir)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb34"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> Seq2SeqTrainingArguments, TrainingArguments</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> transformers <span class="im">import</span> Trainer</span></code></pre></div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="LlaJ4yJxDfh2">
+<p>Next, you can create a <code>Trainer</code> object initializing the
+appropriate data collator.</p>
+</div>
+<div class="cell code" data-execution_count="23" id="b3Zqw2vpDfh2">
+<div class="sourceCode" id="cb35"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> create_trainer(model, train_args, train_dataset, dev_dataset, tokenizer):   <span class="co"># [1 Mark]</span></span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>    data_collator <span class="op">=</span> DataCollatorForSeq2Seq(tokenizer, model<span class="op">=</span>model)</span>
+<span id="cb35-3"><a href="#cb35-3" aria-hidden="true" tabindex="-1"></a>    trainer <span class="op">=</span> Trainer(</span>
+<span id="cb35-4"><a href="#cb35-4" aria-hidden="true" tabindex="-1"></a>        model<span class="op">=</span>model,</span>
+<span id="cb35-5"><a href="#cb35-5" aria-hidden="true" tabindex="-1"></a>        args<span class="op">=</span>train_args,</span>
+<span id="cb35-6"><a href="#cb35-6" aria-hidden="true" tabindex="-1"></a>        data_collator<span class="op">=</span>data_collator,</span>
+<span id="cb35-7"><a href="#cb35-7" aria-hidden="true" tabindex="-1"></a>        train_dataset<span class="op">=</span>train_dataset,</span>
+<span id="cb35-8"><a href="#cb35-8" aria-hidden="true" tabindex="-1"></a>        eval_dataset<span class="op">=</span>dev_dataset,</span>
+<span id="cb35-9"><a href="#cb35-9" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb35-10"><a href="#cb35-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> trainer</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="24" data-deletable="false"
+data-editable="false" id="3E2txek_Dfh2">
+<div class="sourceCode" id="cb36"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>trainer <span class="op">=</span> create_trainer(model, train_args, train_dataset, dev_dataset, tokenizer)</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>C:\Users\rjana\Anaconda3\lib\site-packages\accelerate\accelerator.py:444: FutureWarning: Passing the following arguments to `Accelerator` is deprecated and will be removed in version 1.0 of Accelerate: dict_keys([&#39;dispatch_batches&#39;, &#39;split_batches&#39;]). Please pass an `accelerate.DataLoaderConfiguration` instead: 
+dataloader_config = DataLoaderConfiguration(dispatch_batches=None, split_batches=False)
+  warnings.warn(
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="25" data-deletable="false"
+data-editable="false" id="wtQpnSvdDfh2">
+<div class="sourceCode" id="cb38"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>trainer.train()</span></code></pre></div>
+<div class="output stream stderr">
+<pre><code>You&#39;re using a BartTokenizerFast tokenizer. Please note that with a fast tokenizer, using the `__call__` method is faster than using a method to encode the text followed by a call to the `pad` method to get a padded encoding.
+</code></pre>
+</div>
+<div class="output display_data">
+
+    <div>
+      
+      <progress value='36' max='36' style='width:300px; height:20px; vertical-align: middle;'></progress>
+      [36/36 02:01, Epoch 3/3]
+    </div>
+    <table border="1" class="dataframe">
+  <thead>
+ <tr style="text-align: left;">
+      <th>Epoch</th>
+      <th>Training Loss</th>
+      <th>Validation Loss</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>No log</td>
+      <td>8.284785</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>No log</td>
+      <td>7.718569</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>No log</td>
+      <td>7.562421</td>
+    </tr>
+  </tbody>
+</table><p>
+</div>
+<div class="output execute_result" data-execution_count="25">
+<pre><code>TrainOutput(global_step=36, training_loss=8.91283925374349, metrics={&#39;train_runtime&#39;: 125.5184, &#39;train_samples_per_second&#39;: 2.151, &#39;train_steps_per_second&#39;: 0.287, &#39;total_flos&#39;: 4019258880000.0, &#39;train_loss&#39;: 8.91283925374349, &#39;epoch&#39;: 3.0})</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="e7Dq4Z3QDfh2">
+<p>If you have set the <code>Seq2SeqTrainingArguments</code> properly,
+you could now use the <code>Trainer</code> to predict sequences of
+tokens. Take into account that <code>Trainer</code> will return the
+indexes of the tokens, so the sequence must be decoded to obtain the
+text strings. The <code>tokenizer</code> provides functionality to do
+this. The result of this process can be stored in the
+<code>prediction</code> column of the test <code>DataFrame</code>:</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 2%" />
+<col style="width: 16%" />
+<col style="width: 20%" />
+<col style="width: 19%" />
+<col style="width: 23%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: right;"></th>
+<th style="text-align: right;">id</th>
+<th style="text-align: left;">FalseSent</th>
+<th style="text-align: left;">reason1</th>
+<th style="text-align: left;">reason2</th>
+<th style="text-align: left;">reason3</th>
+<th style="text-align: left;">prediction</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: right;">76</td>
+<td style="text-align: right;">1280</td>
+<td style="text-align: left;">Beer that is drunk by humans is white</td>
+<td style="text-align: left;">Beer is made of barley and it is a yellow
+drink</td>
+<td style="text-align: left;">A beer that is drunk by humans is not
+white.</td>
+<td style="text-align: left;">Beer is brown</td>
+<td style="text-align: left;">Beer that is drunk by humans is white</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">101</td>
+<td style="text-align: right;">860</td>
+<td style="text-align: left;">eating trash food every day makes you
+stronger</td>
+<td style="text-align: left;">eating trash food every day makes your
+body fat and weak</td>
+<td style="text-align: left;">eating trash food every day is bad for
+your health</td>
+<td style="text-align: left;">Trash food could be contaminated</td>
+<td style="text-align: left;">eating trash food every day makes you
+stronger</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">136</td>
+<td style="text-align: right;">777</td>
+<td style="text-align: left;">he put some cooking oil in his wine</td>
+<td style="text-align: left;">cooking oil will destroy the taste of the
+wine</td>
+<td style="text-align: left;">Cooking oil does not go in wine</td>
+<td style="text-align: left;">Cooking oil does not taste nice and
+therefore would ruin the wine.</td>
+<td style="text-align: left;">he put some cooking oil in his wine</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">174</td>
+<td style="text-align: right;">570</td>
+<td style="text-align: left;">Lobsters live in the mountains</td>
+<td style="text-align: left;">Lobsters needs water to live</td>
+<td style="text-align: left;">Lobsters live in the sea.</td>
+<td style="text-align: left;">Lobsters live in the sea, not the
+mountains</td>
+<td style="text-align: left;">Lobsters live in mountains</td>
+</tr>
+<tr class="odd">
+<td style="text-align: right;">210</td>
+<td style="text-align: right;">1929</td>
+<td style="text-align: left;">the clock shows animals</td>
+<td style="text-align: left;">the clock is used to show the time to
+people</td>
+<td style="text-align: left;">Clocks are required to tell the time, not
+show animals</td>
+<td style="text-align: left;">a clock shows the time not animals</td>
+<td style="text-align: left;">the clock shows animals</td>
+</tr>
+<tr class="even">
+<td style="text-align: right;">235</td>
+<td style="text-align: right;">1619</td>
+<td style="text-align: left;">she put the giraffe in the freezer</td>
+<td style="text-align: left;">A giraffe is much bigger than the
+freezer</td>
+<td style="text-align: left;">There is no way a giraffe is fitting in
+the freezer.</td>
+<td style="text-align: left;">A giraffe is too big to be put in a
+freezer.</td>
+<td style="text-align: left;">she put the giraffe in the freezer</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb41"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install <span class="op">-</span>U transformers accelerate</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: transformers in c:\users\rjana\anaconda3\lib\site-packages (4.36.2)
+Collecting transformers
+  Downloading transformers-4.42.3-py3-none-any.whl (9.3 MB)
+     ---------------------------------------- 9.3/9.3 MB 18.7 MB/s eta 0:00:00
+Requirement already satisfied: accelerate in c:\users\rjana\anaconda3\lib\site-packages (0.31.0)
+Requirement already satisfied: pyyaml&gt;=5.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (6.0)
+Requirement already satisfied: regex!=2019.12.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (2022.7.9)
+Requirement already satisfied: requests in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (2.32.3)
+Requirement already satisfied: safetensors&gt;=0.4.1 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (0.4.1)
+Requirement already satisfied: tqdm&gt;=4.27 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (4.66.4)
+Requirement already satisfied: numpy&lt;2.0,&gt;=1.17 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (1.21.5)
+Requirement already satisfied: filelock in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (3.6.0)
+Requirement already satisfied: packaging&gt;=20.0 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (21.3)
+Collecting tokenizers&lt;0.20,&gt;=0.19
+  Downloading tokenizers-0.19.1-cp39-none-win_amd64.whl (2.2 MB)
+     ---------------------------------------- 2.2/2.2 MB 35.1 MB/s eta 0:00:00
+Requirement already satisfied: huggingface-hub&lt;1.0,&gt;=0.23.2 in c:\users\rjana\anaconda3\lib\site-packages (from transformers) (0.23.4)
+Requirement already satisfied: psutil in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (5.9.0)
+Requirement already satisfied: torch&gt;=1.10.0 in c:\users\rjana\anaconda3\lib\site-packages (from accelerate) (2.1.2)
+Requirement already satisfied: fsspec&gt;=2023.5.0 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub&lt;1.0,&gt;=0.23.2-&gt;transformers) (2023.12.2)
+Requirement already satisfied: typing-extensions&gt;=3.7.4.3 in c:\users\rjana\anaconda3\lib\site-packages (from huggingface-hub&lt;1.0,&gt;=0.23.2-&gt;transformers) (4.12.0)
+Requirement already satisfied: pyparsing!=3.0.5,&gt;=2.0.2 in c:\users\rjana\anaconda3\lib\site-packages (from packaging&gt;=20.0-&gt;transformers) (3.0.9)
+Requirement already satisfied: sympy in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (1.10.1)
+Requirement already satisfied: jinja2 in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (2.11.3)
+Requirement already satisfied: networkx in c:\users\rjana\anaconda3\lib\site-packages (from torch&gt;=1.10.0-&gt;accelerate) (2.8.4)
+Requirement already satisfied: colorama in c:\users\rjana\anaconda3\lib\site-packages (from tqdm&gt;=4.27-&gt;transformers) (0.4.6)
+Requirement already satisfied: certifi&gt;=2017.4.17 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (2022.9.14)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (3.3)
+Requirement already satisfied: charset-normalizer&lt;4,&gt;=2 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (2.0.4)
+Requirement already satisfied: urllib3&lt;3,&gt;=1.21.1 in c:\users\rjana\anaconda3\lib\site-packages (from requests-&gt;transformers) (1.26.11)
+Requirement already satisfied: MarkupSafe&gt;=0.23 in c:\users\rjana\anaconda3\lib\site-packages (from jinja2-&gt;torch&gt;=1.10.0-&gt;accelerate) (2.0.1)
+Requirement already satisfied: mpmath&gt;=0.19 in c:\users\rjana\anaconda3\lib\site-packages (from sympy-&gt;torch&gt;=1.10.0-&gt;accelerate) (1.2.1)
+Installing collected packages: tokenizers, transformers
+  Attempting uninstall: tokenizers
+    Found existing installation: tokenizers 0.15.0
+    Uninstalling tokenizers-0.15.0:
+      Successfully uninstalled tokenizers-0.15.0
+</code></pre>
+</div>
+<div class="output stream stderr">
+<pre><code>ERROR: Could not install packages due to an OSError: [WinError 5] Access is denied: &#39;C:\\Users\\rjana\\Anaconda3\\Lib\\site-packages\\~okenizers\\tokenizers.cp39-win_amd64.pyd&#39;
+Consider using the `--user` option or check the permissions.
+
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="27" id="8igEq42FDfh2">
+<div class="sourceCode" id="cb44"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb44-1"><a href="#cb44-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> make_predictions(trainer, test_dataset, tokenizer):   <span class="co"># [1 Mark]</span></span>
+<span id="cb44-2"><a href="#cb44-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-3"><a href="#cb44-3" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> trainer.predict(test_dataset)</span>
+<span id="cb44-4"><a href="#cb44-4" aria-hidden="true" tabindex="-1"></a>    logits <span class="op">=</span> predictions.predictions[<span class="dv">0</span>]</span>
+<span id="cb44-5"><a href="#cb44-5" aria-hidden="true" tabindex="-1"></a>    predicted_indexes <span class="op">=</span> logits.argmax(<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb44-6"><a href="#cb44-6" aria-hidden="true" tabindex="-1"></a>    decoded_predictions <span class="op">=</span> tokenizer.batch_decode(predicted_indexes, skip_special_tokens<span class="op">=</span><span class="va">True</span>)</span>
+<span id="cb44-7"><a href="#cb44-7" aria-hidden="true" tabindex="-1"></a>    test_data[<span class="st">&quot;prediction&quot;</span>] <span class="op">=</span> decoded_predictions</span>
+<span id="cb44-8"><a href="#cb44-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb44-9"><a href="#cb44-9" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> decoded_predictions</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="28" data-deletable="false"
+data-editable="false" id="zaptZPfJDfh2">
+<div class="sourceCode" id="cb45"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb45-1"><a href="#cb45-1" aria-hidden="true" tabindex="-1"></a>predictions <span class="op">=</span> make_predictions(trainer, test_dataset, tokenizer)</span>
+<span id="cb45-2"><a href="#cb45-2" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&quot;prediction&quot;</span>] <span class="op">=</span> predictions</span>
+<span id="cb45-3"><a href="#cb45-3" aria-hidden="true" tabindex="-1"></a>test_data</span></code></pre></div>
+<div class="output display_data">
+
+</div>
+<div class="output execute_result" data-execution_count="28">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>reason1</th>
+      <th>reason2</th>
+      <th>reason3</th>
+      <th>prediction</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>76</th>
+      <td>1280</td>
+      <td>Beer that is drunk by humans is white</td>
+      <td>Beer is made of barley and it is a yellow drink</td>
+      <td>A beer that is drunk by humans is not white.</td>
+      <td>Beer is brown</td>
+      <td>Beer that is drunk by humans is whitec--</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>860</td>
+      <td>eating trash food every day makes you stronger</td>
+      <td>eating trash food every day makes your body fat and weak</td>
+      <td>eating trash food every day is bad for your health</td>
+      <td>Trash food could be contaminated</td>
+      <td>eating trash food every day makes you stronger--ACCACACACACACACACAC</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>777</td>
+      <td>he put some cooking oil in his wine</td>
+      <td>cooking oil will destroy the taste of the wine</td>
+      <td>Cooking oil does not go in wine</td>
+      <td>Cooking oil does not taste nice and therefore would ruin the wine.</td>
+      <td>he put some cooking oil in his wineCCCC</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>570</td>
+      <td>Lobsters live in the mountains</td>
+      <td>Lobsters needs water to live</td>
+      <td>Lobsters live in the sea.</td>
+      <td>Lobsters live in the sea, not the mountains</td>
+      <td>Lobsters live in the mountains--------------</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>1929</td>
+      <td>the clock shows animals</td>
+      <td>the clock is used to show the time to people</td>
+      <td>Clocks are required to tell the time, not show animals</td>
+      <td>a clock shows the time not animals</td>
+      <td>the clock shows animalsCCCCCACEACEACEAPEAPE</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>1619</td>
+      <td>she put the giraffe in the freezer</td>
+      <td>A giraffe is much bigger than the freezer</td>
+      <td>There is no way a giraffe is fitting in the freezer.</td>
+      <td>A giraffe is too big to be put in a freezer.</td>
+      <td>she put the giraffe in the freezerCCCCcccC</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>979</td>
+      <td>he installed the carpet on the lake</td>
+      <td>The carpet will absorb water and sink</td>
+      <td>Carpets need a subfloor.</td>
+      <td>A lake would not be able to grip onto carpet.</td>
+      <td>he installed the carpet on the lake andCCCCCCCCCcccC</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>75</td>
+      <td>My son had us write an essay on The National Monument.</td>
+      <td>My son isn't smart enough to assign an essay.</td>
+      <td>My son is studying in the seconds standard only</td>
+      <td>Children don't ask parents to write essays.</td>
+      <td>My son had us write an essay on The National Monument.cccccc</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>1810</td>
+      <td>He drove up the stairs to the bedroom</td>
+      <td>A car is too large to fit upstairs</td>
+      <td>Stairs are too small and weak for a car to drive up</td>
+      <td>People don't drive up indoor stairs.</td>
+      <td>He drove up the stairs to the bedroom andcccc</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>774</td>
+      <td>he put a piece of plastic on the bread</td>
+      <td>the plastic usually is toxic</td>
+      <td>You can't eat plastic.</td>
+      <td>People do not eat plastic because it's not a food</td>
+      <td>he put a piece of plastic on the breadCCCCCCC-C</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>1739</td>
+      <td>My mom always cuts my fish's hair.</td>
+      <td>Fish don't have any hair.</td>
+      <td>Fish have scales instead of hair like we have</td>
+      <td>Fish don't have hair.</td>
+      <td>My mom always cuts my fish's hair.cccc</td>
+    </tr>
+    <tr>
+      <th>521</th>
+      <td>324</td>
+      <td>She put the filing cabinet into the papers.</td>
+      <td>Nothing can be put into the paper.</td>
+      <td>it doesnt fit into papers</td>
+      <td>The filing cabinet is what papers go into.</td>
+      <td>She put the filing cabinet into the papers.ccc</td>
+    </tr>
+    <tr>
+      <th>527</th>
+      <td>6</td>
+      <td>Grizzly bears hate honey.</td>
+      <td>Honey is good for grizzly bear's growth</td>
+      <td>Grizzly bears have been observed in the wild seeking out honey to eat</td>
+      <td>Grizzly bears love honey.</td>
+      <td>Grizzly bears hate honey.---CCCC-----</td>
+    </tr>
+    <tr>
+      <th>549</th>
+      <td>901</td>
+      <td>the baby held a grizzly bear</td>
+      <td>a baby would be eaten by a grizzly bear</td>
+      <td>Baby can hold a teddy bear but not grizzly bear.</td>
+      <td>A grizzly bear is bigger than a baby and would eat a baby.</td>
+      <td>the baby held a grizzly bearCCCCCCCCC</td>
+    </tr>
+    <tr>
+      <th>626</th>
+      <td>343</td>
+      <td>She throws a stove in the hat.</td>
+      <td>A stove is bigger than a hat.</td>
+      <td>stove is too big to fit in a hat</td>
+      <td>Stove cannot be thrown in the hat</td>
+      <td>She throws a stove in the hat.ccc</td>
+    </tr>
+    <tr>
+      <th>636</th>
+      <td>1044</td>
+      <td>fishing nets are useful for covering a window</td>
+      <td>fishing nets have holes in them that leave gaps of a window uncovered</td>
+      <td>Fishing net will smell so bad and look so unclean on a window.</td>
+      <td>Nets don't block out light.</td>
+      <td>fishing nets are useful for covering a window netsAAAAACCCC</td>
+    </tr>
+    <tr>
+      <th>660</th>
+      <td>207</td>
+      <td>Pens are for painting</td>
+      <td>Pens are a writing utensil</td>
+      <td>Pens are not brushes.</td>
+      <td>A pen is not made for painting.</td>
+      <td>Pens are for paintingA---AAAA-----cccreve</td>
+    </tr>
+    <tr>
+      <th>678</th>
+      <td>443</td>
+      <td>My window speaks very well.</td>
+      <td>Your window cannot speak because it is an object.</td>
+      <td>windows dont talk</td>
+      <td>a window does not have a voice</td>
+      <td>My window speaks very well..AccCCccc---cccAPE</td>
+    </tr>
+    <tr>
+      <th>737</th>
+      <td>1455</td>
+      <td>The lion used the litter box</td>
+      <td>A domestic cat is tame and use litter boxes</td>
+      <td>The lion is too big for a litter box</td>
+      <td>litter boxes are only for cats</td>
+      <td>The lion used the litter box-CCCCCC----crevereve</td>
+    </tr>
+    <tr>
+      <th>740</th>
+      <td>13</td>
+      <td>Cigarette is good for healthy</td>
+      <td>Lung will be damaged by smoking cigarette</td>
+      <td>Cigarettes contain carcinogens.</td>
+      <td>Cigarettes cause cancer.</td>
+      <td>Cigarette is good for healthy--------------</td>
+    </tr>
+    <tr>
+      <th>761</th>
+      <td>308</td>
+      <td>Mike ran four sandwiches.</td>
+      <td>You can't run a sandwich.</td>
+      <td>A sandwich is not a distance</td>
+      <td>Sandwich is food and not need to run for it.</td>
+      <td>Mike ran four sandwiches.CCCCCcccc</td>
+    </tr>
+    <tr>
+      <th>811</th>
+      <td>1439</td>
+      <td>The cat likes to watch alligators.</td>
+      <td>Cats and alligators lives in different areas in the world</td>
+      <td>Cats like to watch things they can eat.</td>
+      <td>The cat likes to watch birds and not alligators.</td>
+      <td>The cat likes to watch alligators.ccC</td>
+    </tr>
+    <tr>
+      <th>859</th>
+      <td>1696</td>
+      <td>The supermarket only sells cars</td>
+      <td>They have a variety of goods and services in the supermarket, mainly household supplies</td>
+      <td>A supermarket implies the sale of smaller goods like groceries or toiletries.</td>
+      <td>Supermarkets don't sell cars.</td>
+      <td>The supermarket only sells carsCCACCCCCACCCA</td>
+    </tr>
+    <tr>
+      <th>883</th>
+      <td>1548</td>
+      <td>The man ate the bowl when he was hungry.</td>
+      <td>People cannot eat bowls.</td>
+      <td>The bowl is not edible.</td>
+      <td>One cannot eat a bowl</td>
+      <td>The man ate the bowl when he was hungry.CCC</td>
+    </tr>
+    <tr>
+      <th>899</th>
+      <td>863</td>
+      <td>a flower petal is part of a motor vehicle</td>
+      <td>a flower petal isn't a motor component</td>
+      <td>A motor vehicle does not contain flower parts</td>
+      <td>Petals aren't car parts.</td>
+      <td>a flower petal is part of a motor vehicleAAAAAAAAAAAA</td>
+    </tr>
+    <tr>
+      <th>902</th>
+      <td>745</td>
+      <td>Renting movies is the newest trend</td>
+      <td>Fewer and fewer people like renting movies</td>
+      <td>Renting has been around a long time.</td>
+      <td>Renting movies is outdated and for something to be trending it must be popular</td>
+      <td>Renting movies is the newest trend---RRRCCCAAAccA</td>
+    </tr>
+    <tr>
+      <th>938</th>
+      <td>1883</td>
+      <td>People are usually green</td>
+      <td>No one is born green</td>
+      <td>People are not green.</td>
+      <td>No existing human race has green skin.</td>
+      <td>People are usually green-CC---cc--</td>
+    </tr>
+    <tr>
+      <th>947</th>
+      <td>1030</td>
+      <td>beepers are becoming even more popular</td>
+      <td>no one uses beepers anymore</td>
+      <td>The beeper trend died in the 90s.</td>
+      <td>Beepers have gone out of style with all of the new available cell phones, so they are rarely used anymore.</td>
+      <td>beepers are becoming even more popular-CCCCCCACCCCAC</td>
+    </tr>
+    <tr>
+      <th>973</th>
+      <td>986</td>
+      <td>the sun rises in the west</td>
+      <td>the sun rises in the east and sets in the west</td>
+      <td>It depends on the earth position</td>
+      <td>The sun always sets in the west</td>
+      <td>the sun rises in the westCCCACACcAPEAPE</td>
+    </tr>
+    <tr>
+      <th>986</th>
+      <td>905</td>
+      <td>at night it's easy to find sun</td>
+      <td>sun can be seen only during the day</td>
+      <td>By definition night is after the sun has gone</td>
+      <td>The sun is not out at night</td>
+      <td>at night it's easy to find sun----cccc</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="2gAv_hl0Dfh3">
+<p>The <strong>Subtasks B</strong> of <strong>ComVE</strong> is
+evaluated using the <em>bleu</em> metric. In this assignment, you will
+also evaluate using <em>rouge</em>. With <code>shrink_dataset</code> and
+<code>base_model</code> set to <code>True</code>, the expected scores
+are <em>0.216</em> and <em>0.446</em> for <em>bleu</em> and
+<em>rouge</em> respectively. With a full training run, i.e. with
+<code>shrink_dataset</code> and <code>base_model</code> set to
+<code>False</code>, the scores should be around <em>0.228</em> and
+<em>0.461</em>.</p>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb46"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb46-1"><a href="#cb46-1" aria-hidden="true" tabindex="-1"></a>pip install sacrebleu</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Collecting sacrebleu
+  Downloading sacrebleu-2.4.2-py3-none-any.whl (106 kB)
+     -------------------------------------- 106.7/106.7 kB 6.0 MB/s eta 0:00:00
+Collecting portalocker
+  Downloading portalocker-2.10.0-py3-none-any.whl (18 kB)
+Requirement already satisfied: lxml in c:\users\rjana\anaconda3\lib\site-packages (from sacrebleu) (4.9.1)
+Requirement already satisfied: regex in c:\users\rjana\anaconda3\lib\site-packages (from sacrebleu) (2022.7.9)
+Requirement already satisfied: colorama in c:\users\rjana\anaconda3\lib\site-packages (from sacrebleu) (0.4.6)
+Requirement already satisfied: numpy&gt;=1.17 in c:\users\rjana\anaconda3\lib\site-packages (from sacrebleu) (1.21.5)
+Requirement already satisfied: tabulate&gt;=0.8.9 in c:\users\rjana\anaconda3\lib\site-packages (from sacrebleu) (0.8.10)
+Requirement already satisfied: pywin32&gt;=226 in c:\users\rjana\anaconda3\lib\site-packages (from portalocker-&gt;sacrebleu) (302)
+Installing collected packages: portalocker, sacrebleu
+Successfully installed portalocker-2.10.0 sacrebleu-2.4.2
+Note: you may need to restart the kernel to use updated packages.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb48"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb48-1"><a href="#cb48-1" aria-hidden="true" tabindex="-1"></a>pip install rouge</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Collecting rouge
+  Downloading rouge-1.0.1-py3-none-any.whl (13 kB)
+Requirement already satisfied: six in c:\users\rjana\anaconda3\lib\site-packages (from rouge) (1.16.0)
+Installing collected packages: rouge
+Successfully installed rouge-1.0.1
+Note: you may need to restart the kernel to use updated packages.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="31">
+<div class="sourceCode" id="cb50"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb50-1"><a href="#cb50-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> sacrebleu</span>
+<span id="cb50-2"><a href="#cb50-2" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> rouge <span class="im">import</span> Rouge</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="35" id="yDJ79cPoDfh3">
+<div class="sourceCode" id="cb51"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb51-1"><a href="#cb51-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_bleu(reference, candidate):   <span class="co"># [2 Marks]</span></span>
+<span id="cb51-2"><a href="#cb51-2" aria-hidden="true" tabindex="-1"></a>    references <span class="op">=</span> [<span class="st">&#39; &#39;</span>.join(ref) <span class="cf">for</span> ref <span class="kw">in</span> reference]</span>
+<span id="cb51-3"><a href="#cb51-3" aria-hidden="true" tabindex="-1"></a>    candidate <span class="op">=</span> <span class="st">&#39; &#39;</span>.join(candidate.split())</span>
+<span id="cb51-4"><a href="#cb51-4" aria-hidden="true" tabindex="-1"></a>    bleu <span class="op">=</span> sacrebleu.corpus_bleu(candidate, references)</span>
+<span id="cb51-5"><a href="#cb51-5" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> bleu.score</span>
+<span id="cb51-6"><a href="#cb51-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-7"><a href="#cb51-7" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_rouge(reference, candidate):</span>
+<span id="cb51-8"><a href="#cb51-8" aria-hidden="true" tabindex="-1"></a>    rouge <span class="op">=</span> Rouge()</span>
+<span id="cb51-9"><a href="#cb51-9" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> rouge.get_scores(candidate, reference)</span>
+<span id="cb51-10"><a href="#cb51-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> scores[<span class="dv">0</span>][<span class="st">&#39;rouge-1&#39;</span>][<span class="st">&#39;f&#39;</span>]</span>
+<span id="cb51-11"><a href="#cb51-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-12"><a href="#cb51-12" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> evaluate_prediction(test_data, metric):</span>
+<span id="cb51-13"><a href="#cb51-13" aria-hidden="true" tabindex="-1"></a>    references_data <span class="op">=</span> test_data[[<span class="st">&#39;reason1&#39;</span>, <span class="st">&#39;reason2&#39;</span>, <span class="st">&#39;reason3&#39;</span>]]</span>
+<span id="cb51-14"><a href="#cb51-14" aria-hidden="true" tabindex="-1"></a>    references <span class="op">=</span> references_data.values.tolist()</span>
+<span id="cb51-15"><a href="#cb51-15" aria-hidden="true" tabindex="-1"></a>    predictions <span class="op">=</span> test_data[<span class="st">&#39;prediction&#39;</span>].tolist()</span>
+<span id="cb51-16"><a href="#cb51-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-17"><a href="#cb51-17" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> []</span>
+<span id="cb51-18"><a href="#cb51-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-19"><a href="#cb51-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> reference, prediction <span class="kw">in</span> <span class="bu">zip</span>(references, predictions):</span>
+<span id="cb51-20"><a href="#cb51-20" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> metric <span class="op">==</span> <span class="st">&#39;bleu&#39;</span>:</span>
+<span id="cb51-21"><a href="#cb51-21" aria-hidden="true" tabindex="-1"></a>            score <span class="op">=</span> evaluate_bleu(reference, prediction)</span>
+<span id="cb51-22"><a href="#cb51-22" aria-hidden="true" tabindex="-1"></a>        <span class="cf">elif</span> metric <span class="op">==</span> <span class="st">&#39;rouge&#39;</span>:</span>
+<span id="cb51-23"><a href="#cb51-23" aria-hidden="true" tabindex="-1"></a>            </span>
+<span id="cb51-24"><a href="#cb51-24" aria-hidden="true" tabindex="-1"></a>            reference_string <span class="op">=</span> <span class="st">&#39; &#39;</span>.join(reference)</span>
+<span id="cb51-25"><a href="#cb51-25" aria-hidden="true" tabindex="-1"></a>            score <span class="op">=</span> evaluate_rouge(reference_string, prediction)</span>
+<span id="cb51-26"><a href="#cb51-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">else</span>:</span>
+<span id="cb51-27"><a href="#cb51-27" aria-hidden="true" tabindex="-1"></a>            <span class="cf">raise</span> <span class="pp">ValueError</span>(<span class="st">&quot;Invalid metric. Choose &#39;bleu&#39; or &#39;rouge&#39;.&quot;</span>)</span>
+<span id="cb51-28"><a href="#cb51-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-29"><a href="#cb51-29" aria-hidden="true" tabindex="-1"></a>        scores.append(score)</span>
+<span id="cb51-30"><a href="#cb51-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb51-31"><a href="#cb51-31" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> scores</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="36" data-deletable="false"
+data-editable="false" id="MztCvvWyDfh3">
+<div class="sourceCode" id="cb52"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb52-1"><a href="#cb52-1" aria-hidden="true" tabindex="-1"></a> evaluate_prediction(test_data, <span class="st">&quot;bleu&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="36">
+<pre><code>[0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0,
+ 0.0]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="37" data-deletable="false"
+data-editable="false" id="7aIBv1uODfh3">
+<div class="sourceCode" id="cb54"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb54-1"><a href="#cb54-1" aria-hidden="true" tabindex="-1"></a>evaluate_prediction(test_data, <span class="st">&quot;rouge&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<pre><code>[0.46153845760355033,
+ 0.44444444027434843,
+ 0.23076922650887582,
+ 0.49999999570312514,
+ 0.2857142826303855,
+ 0.31999999635200005,
+ 0.14814814430727036,
+ 0.29411764249134953,
+ 0.20689654772889424,
+ 0.24999999531250006,
+ 0.11111110617283973,
+ 0.47999999564800006,
+ 0.23076922766272187,
+ 0.23076922721893492,
+ 0.39999999564800004,
+ 0.21621621253469692,
+ 0.3529411728719723,
+ 0.08695651788279792,
+ 0.239999996352,
+ 0.0,
+ 0.0,
+ 0.42857142482142857,
+ 0.062499997363281365,
+ 0.1904761854875285,
+ 0.3478260824196598,
+ 0.19999999680000002,
+ 0.23529411404844294,
+ 0.11428571144489805,
+ 0.3999999962500001,
+ 0.1538461499112427]</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-deletable="false" data-editable="false"
+id="s0D-JhuDDfh3">
+<p>The scores for the partial training and the full training are so
+similar that it would appear that the full training does not provide any
+benefit in this task. However, it should be noted that the test sets in
+the two cases are different. More importantly, these results are
+indicative of the limitations of metrics such as <em>bleu</em> and
+<em>rouge</em> for evaluating text generation. Take, for example, the
+following case from the test set:</p>
+<table>
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 33%" />
+<col style="width: 23%" />
+<col style="width: 23%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">FalseSent</th>
+<th style="text-align: left;">reason1</th>
+<th style="text-align: left;">reason2</th>
+<th style="text-align: left;">reason3</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Beer that is drunk by humans is white</td>
+<td style="text-align: left;">Beer is made of barley and it is a yellow
+drink</td>
+<td style="text-align: left;">A beer that is drunk by humans is not
+white.</td>
+<td style="text-align: left;">Beer is brown</td>
+</tr>
+</tbody>
+</table>
+<p>The predictions obtained by the partial and full trainings and their
+corresponding scores are the following:</p>
+<table>
+<colgroup>
+<col style="width: 27%" />
+<col style="width: 42%" />
+<col style="width: 15%" />
+<col style="width: 15%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">full training</th>
+<th style="text-align: left;">prediction</th>
+<th style="text-align: right;">bleu</th>
+<th style="text-align: right;">rouge</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">no</td>
+<td style="text-align: left;">Beer that is drunk by humans is white</td>
+<td style="text-align: right;">0.731</td>
+<td style="text-align: right;">0.889</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">yes</td>
+<td style="text-align: left;">White beer is not suitable for human
+consumption.</td>
+<td style="text-align: right;">0.000</td>
+<td style="text-align: right;">0.364</td>
+</tr>
+</tbody>
+</table>
+<p>The text generated by the full training is a better explanation than
+the reason generated by the partial training, which is a mere repetition
+of the nonsensical statement. However, the latter obtains much better
+scores than the former. Metrics such as <em>bleu</em> and <em>rouge</em>
+do not always replace accurately the human judgement.</p>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb56"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb56-1"><a href="#cb56-1" aria-hidden="true" tabindex="-1"></a>blue_result <span class="op">=</span>  evaluate_prediction(test_data, <span class="st">&quot;bleu&quot;</span>)</span>
+<span id="cb56-2"><a href="#cb56-2" aria-hidden="true" tabindex="-1"></a>rouge_result <span class="op">=</span> evaluate_prediction(test_data, <span class="st">&quot;rouge&quot;</span>)</span>
+<span id="cb56-3"><a href="#cb56-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb56-4"><a href="#cb56-4" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&#39;blue&#39;</span>] <span class="op">=</span> blue_result</span>
+<span id="cb56-5"><a href="#cb56-5" aria-hidden="true" tabindex="-1"></a>test_data[<span class="st">&#39;rouge&#39;</span>] <span class="op">=</span> rouge_result</span>
+<span id="cb56-6"><a href="#cb56-6" aria-hidden="true" tabindex="-1"></a>test_data</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>FalseSent</th>
+      <th>reason1</th>
+      <th>reason2</th>
+      <th>reason3</th>
+      <th>prediction</th>
+      <th>blue</th>
+      <th>rouge</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>76</th>
+      <td>1280</td>
+      <td>Beer that is drunk by humans is white</td>
+      <td>Beer is made of barley and it is a yellow drink</td>
+      <td>A beer that is drunk by humans is not white.</td>
+      <td>Beer is brown</td>
+      <td>Beer that is drunk by humans is whitec--</td>
+      <td>0.0</td>
+      <td>0.461538</td>
+    </tr>
+    <tr>
+      <th>101</th>
+      <td>860</td>
+      <td>eating trash food every day makes you stronger</td>
+      <td>eating trash food every day makes your body fat and weak</td>
+      <td>eating trash food every day is bad for your health</td>
+      <td>Trash food could be contaminated</td>
+      <td>eating trash food every day makes you stronger--ACCACACACACACACACAC</td>
+      <td>0.0</td>
+      <td>0.444444</td>
+    </tr>
+    <tr>
+      <th>136</th>
+      <td>777</td>
+      <td>he put some cooking oil in his wine</td>
+      <td>cooking oil will destroy the taste of the wine</td>
+      <td>Cooking oil does not go in wine</td>
+      <td>Cooking oil does not taste nice and therefore would ruin the wine.</td>
+      <td>he put some cooking oil in his wineCCCC</td>
+      <td>0.0</td>
+      <td>0.230769</td>
+    </tr>
+    <tr>
+      <th>174</th>
+      <td>570</td>
+      <td>Lobsters live in the mountains</td>
+      <td>Lobsters needs water to live</td>
+      <td>Lobsters live in the sea.</td>
+      <td>Lobsters live in the sea, not the mountains</td>
+      <td>Lobsters live in the mountains--------------</td>
+      <td>0.0</td>
+      <td>0.500000</td>
+    </tr>
+    <tr>
+      <th>210</th>
+      <td>1929</td>
+      <td>the clock shows animals</td>
+      <td>the clock is used to show the time to people</td>
+      <td>Clocks are required to tell the time, not show animals</td>
+      <td>a clock shows the time not animals</td>
+      <td>the clock shows animalsCCCCCACEACEACEAPEAPE</td>
+      <td>0.0</td>
+      <td>0.285714</td>
+    </tr>
+    <tr>
+      <th>235</th>
+      <td>1619</td>
+      <td>she put the giraffe in the freezer</td>
+      <td>A giraffe is much bigger than the freezer</td>
+      <td>There is no way a giraffe is fitting in the freezer.</td>
+      <td>A giraffe is too big to be put in a freezer.</td>
+      <td>she put the giraffe in the freezerCCCCcccC</td>
+      <td>0.0</td>
+      <td>0.320000</td>
+    </tr>
+    <tr>
+      <th>280</th>
+      <td>979</td>
+      <td>he installed the carpet on the lake</td>
+      <td>The carpet will absorb water and sink</td>
+      <td>Carpets need a subfloor.</td>
+      <td>A lake would not be able to grip onto carpet.</td>
+      <td>he installed the carpet on the lake andCCCCCCCCCcccC</td>
+      <td>0.0</td>
+      <td>0.148148</td>
+    </tr>
+    <tr>
+      <th>319</th>
+      <td>75</td>
+      <td>My son had us write an essay on The National Monument.</td>
+      <td>My son isn't smart enough to assign an essay.</td>
+      <td>My son is studying in the seconds standard only</td>
+      <td>Children don't ask parents to write essays.</td>
+      <td>My son had us write an essay on The National Monument.cccccc</td>
+      <td>0.0</td>
+      <td>0.294118</td>
+    </tr>
+    <tr>
+      <th>371</th>
+      <td>1810</td>
+      <td>He drove up the stairs to the bedroom</td>
+      <td>A car is too large to fit upstairs</td>
+      <td>Stairs are too small and weak for a car to drive up</td>
+      <td>People don't drive up indoor stairs.</td>
+      <td>He drove up the stairs to the bedroom andcccc</td>
+      <td>0.0</td>
+      <td>0.206897</td>
+    </tr>
+    <tr>
+      <th>411</th>
+      <td>774</td>
+      <td>he put a piece of plastic on the bread</td>
+      <td>the plastic usually is toxic</td>
+      <td>You can't eat plastic.</td>
+      <td>People do not eat plastic because it's not a food</td>
+      <td>he put a piece of plastic on the breadCCCCCCC-C</td>
+      <td>0.0</td>
+      <td>0.250000</td>
+    </tr>
+    <tr>
+      <th>513</th>
+      <td>1739</td>
+      <td>My mom always cuts my fish's hair.</td>
+      <td>Fish don't have any hair.</td>
+      <td>Fish have scales instead of hair like we have</td>
+      <td>Fish don't have hair.</td>
+      <td>My mom always cuts my fish's hair.cccc</td>
+      <td>0.0</td>
+      <td>0.111111</td>
+    </tr>
+    <tr>
+      <th>521</th>
+      <td>324</td>
+      <td>She put the filing cabinet into the papers.</td>
+      <td>Nothing can be put into the paper.</td>
+      <td>it doesnt fit into papers</td>
+      <td>The filing cabinet is what papers go into.</td>
+      <td>She put the filing cabinet into the papers.ccc</td>
+      <td>0.0</td>
+      <td>0.480000</td>
+    </tr>
+    <tr>
+      <th>527</th>
+      <td>6</td>
+      <td>Grizzly bears hate honey.</td>
+      <td>Honey is good for grizzly bear's growth</td>
+      <td>Grizzly bears have been observed in the wild seeking out honey to eat</td>
+      <td>Grizzly bears love honey.</td>
+      <td>Grizzly bears hate honey.---CCCC-----</td>
+      <td>0.0</td>
+      <td>0.230769</td>
+    </tr>
+    <tr>
+      <th>549</th>
+      <td>901</td>
+      <td>the baby held a grizzly bear</td>
+      <td>a baby would be eaten by a grizzly bear</td>
+      <td>Baby can hold a teddy bear but not grizzly bear.</td>
+      <td>A grizzly bear is bigger than a baby and would eat a baby.</td>
+      <td>the baby held a grizzly bearCCCCCCCCC</td>
+      <td>0.0</td>
+      <td>0.230769</td>
+    </tr>
+    <tr>
+      <th>626</th>
+      <td>343</td>
+      <td>She throws a stove in the hat.</td>
+      <td>A stove is bigger than a hat.</td>
+      <td>stove is too big to fit in a hat</td>
+      <td>Stove cannot be thrown in the hat</td>
+      <td>She throws a stove in the hat.ccc</td>
+      <td>0.0</td>
+      <td>0.400000</td>
+    </tr>
+    <tr>
+      <th>636</th>
+      <td>1044</td>
+      <td>fishing nets are useful for covering a window</td>
+      <td>fishing nets have holes in them that leave gaps of a window uncovered</td>
+      <td>Fishing net will smell so bad and look so unclean on a window.</td>
+      <td>Nets don't block out light.</td>
+      <td>fishing nets are useful for covering a window netsAAAAACCCC</td>
+      <td>0.0</td>
+      <td>0.216216</td>
+    </tr>
+    <tr>
+      <th>660</th>
+      <td>207</td>
+      <td>Pens are for painting</td>
+      <td>Pens are a writing utensil</td>
+      <td>Pens are not brushes.</td>
+      <td>A pen is not made for painting.</td>
+      <td>Pens are for paintingA---AAAA-----cccreve</td>
+      <td>0.0</td>
+      <td>0.352941</td>
+    </tr>
+    <tr>
+      <th>678</th>
+      <td>443</td>
+      <td>My window speaks very well.</td>
+      <td>Your window cannot speak because it is an object.</td>
+      <td>windows dont talk</td>
+      <td>a window does not have a voice</td>
+      <td>My window speaks very well..AccCCccc---cccAPE</td>
+      <td>0.0</td>
+      <td>0.086957</td>
+    </tr>
+    <tr>
+      <th>737</th>
+      <td>1455</td>
+      <td>The lion used the litter box</td>
+      <td>A domestic cat is tame and use litter boxes</td>
+      <td>The lion is too big for a litter box</td>
+      <td>litter boxes are only for cats</td>
+      <td>The lion used the litter box-CCCCCC----crevereve</td>
+      <td>0.0</td>
+      <td>0.240000</td>
+    </tr>
+    <tr>
+      <th>740</th>
+      <td>13</td>
+      <td>Cigarette is good for healthy</td>
+      <td>Lung will be damaged by smoking cigarette</td>
+      <td>Cigarettes contain carcinogens.</td>
+      <td>Cigarettes cause cancer.</td>
+      <td>Cigarette is good for healthy--------------</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>761</th>
+      <td>308</td>
+      <td>Mike ran four sandwiches.</td>
+      <td>You can't run a sandwich.</td>
+      <td>A sandwich is not a distance</td>
+      <td>Sandwich is food and not need to run for it.</td>
+      <td>Mike ran four sandwiches.CCCCCcccc</td>
+      <td>0.0</td>
+      <td>0.000000</td>
+    </tr>
+    <tr>
+      <th>811</th>
+      <td>1439</td>
+      <td>The cat likes to watch alligators.</td>
+      <td>Cats and alligators lives in different areas in the world</td>
+      <td>Cats like to watch things they can eat.</td>
+      <td>The cat likes to watch birds and not alligators.</td>
+      <td>The cat likes to watch alligators.ccC</td>
+      <td>0.0</td>
+      <td>0.428571</td>
+    </tr>
+    <tr>
+      <th>859</th>
+      <td>1696</td>
+      <td>The supermarket only sells cars</td>
+      <td>They have a variety of goods and services in the supermarket, mainly household supplies</td>
+      <td>A supermarket implies the sale of smaller goods like groceries or toiletries.</td>
+      <td>Supermarkets don't sell cars.</td>
+      <td>The supermarket only sells carsCCACCCCCACCCA</td>
+      <td>0.0</td>
+      <td>0.062500</td>
+    </tr>
+    <tr>
+      <th>883</th>
+      <td>1548</td>
+      <td>The man ate the bowl when he was hungry.</td>
+      <td>People cannot eat bowls.</td>
+      <td>The bowl is not edible.</td>
+      <td>One cannot eat a bowl</td>
+      <td>The man ate the bowl when he was hungry.CCC</td>
+      <td>0.0</td>
+      <td>0.190476</td>
+    </tr>
+    <tr>
+      <th>899</th>
+      <td>863</td>
+      <td>a flower petal is part of a motor vehicle</td>
+      <td>a flower petal isn't a motor component</td>
+      <td>A motor vehicle does not contain flower parts</td>
+      <td>Petals aren't car parts.</td>
+      <td>a flower petal is part of a motor vehicleAAAAAAAAAAAA</td>
+      <td>0.0</td>
+      <td>0.347826</td>
+    </tr>
+    <tr>
+      <th>902</th>
+      <td>745</td>
+      <td>Renting movies is the newest trend</td>
+      <td>Fewer and fewer people like renting movies</td>
+      <td>Renting has been around a long time.</td>
+      <td>Renting movies is outdated and for something to be trending it must be popular</td>
+      <td>Renting movies is the newest trend---RRRCCCAAAccA</td>
+      <td>0.0</td>
+      <td>0.200000</td>
+    </tr>
+    <tr>
+      <th>938</th>
+      <td>1883</td>
+      <td>People are usually green</td>
+      <td>No one is born green</td>
+      <td>People are not green.</td>
+      <td>No existing human race has green skin.</td>
+      <td>People are usually green-CC---cc--</td>
+      <td>0.0</td>
+      <td>0.235294</td>
+    </tr>
+    <tr>
+      <th>947</th>
+      <td>1030</td>
+      <td>beepers are becoming even more popular</td>
+      <td>no one uses beepers anymore</td>
+      <td>The beeper trend died in the 90s.</td>
+      <td>Beepers have gone out of style with all of the new available cell phones, so they are rarely used anymore.</td>
+      <td>beepers are becoming even more popular-CCCCCCACCCCAC</td>
+      <td>0.0</td>
+      <td>0.114286</td>
+    </tr>
+    <tr>
+      <th>973</th>
+      <td>986</td>
+      <td>the sun rises in the west</td>
+      <td>the sun rises in the east and sets in the west</td>
+      <td>It depends on the earth position</td>
+      <td>The sun always sets in the west</td>
+      <td>the sun rises in the westCCCACACcAPEAPE</td>
+      <td>0.0</td>
+      <td>0.400000</td>
+    </tr>
+    <tr>
+      <th>986</th>
+      <td>905</td>
+      <td>at night it's easy to find sun</td>
+      <td>sun can be seen only during the day</td>
+      <td>By definition night is after the sun has gone</td>
+      <td>The sun is not out at night</td>
+      <td>at night it's easy to find sun----cccc</td>
+      <td>0.0</td>
+      <td>0.153846</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code">
+<div class="sourceCode" id="cb57"><pre
+class="sourceCode python"><code class="sourceCode python"></code></pre></div>
+</div>
+</body>
+</html>
